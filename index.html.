@@ -1,67 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Project: Recipe book</title>
-    <meta charset="utf-8">
-    <style>
-        h1 {
-            color: rgb(191, 0, 191);
-        }
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: The dinner table</title>
+    </head>
+    <body>
+    
+        <h1>Our dinner menu</h1>
 
-        h2 {
-            color: rgb(217, 163, 217);
-        }
+        <table>
+            <thead>
+                <tr>
+                    <th>Meal</th>
+                    <th>Ingredients</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+            
+            <tr> 
+            <td> good </td>
+            <td> meet and bread </td>
+            <td> five dolars </td>
+             </tr>
+              <tr> 
+            <td> good </td>
+            <td> meet and bread </td>
+            <td> five dolars </td>
+             </tr>
+              <tr> 
+            <td> good </td>
+            <td> meet and bread </td>
+            <td> five dolars </td>
+             </tr>
+                
+            </tbody>
+        </table>
 
-        a {
-            color: rgb(191, 0, 191);
-        }
-
-        .ingredients {
-            color: rgb(219, 70, 150);
-        }
-    </style>
-</head>
-<body>
-
-    <h1> Recipe Book <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/creatures/Hopper-Happy.png" alt="patrik mange des burger" width="103"></h1>
-
-    <h2>Contents:</h2>
-
-    <ol>
-        <li><a href="#recipe1">Spicy Chicken Burger with Beer Cheese Sauce</a></li>
-        <li><a href="#recipe2">Pancakes</a></li>
-    </ol>
-
-    <h2 id="recipe1">Recipe #1</h2>
-
-    <ul>
-        <li>Time: _ minutes</li>
-        <li>Serves: _ people</li>
-    </ul>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Ingredients</th>
-                <th>Quantity</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="ingredients">light beer</td>
-                <td>1/2 cup</td>
-            </tr>
-            <tr>
-                <td>smoked paprika</td>
-                <td>1 tablespoon</td>
-            </tr>
-            <!-- Add the rest of the ingredient rows -->
-        </tbody>
-    </table>
-
-    <p><strong>Step 1:</strong> Do something.</p>
-
-    <p><em>Source: <a href="#">Some recipes websites</a></em></p>
-
-</body>
+    </body>
 </html>
