@@ -1,2 +1,99 @@
-# davidtkat.github.io
-Project website
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        h1 {
+            color:rgb(191, 0, 191);
+        }
+        h2 {
+            color: rgb(217, 163, 217);
+        }
+        a {
+            color:rgb(191, 0, 191);
+        }
+        .ingredients {
+            color:rgb(219, 70, 150);
+        }
+        </style>
+    </head>
+    <body>
+    
+        <h1> Recipe Book  <img src= "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/creatures/Hopper-Happy.png" alt= "patrik mange des burger" width="103"></h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href= "#recipe1">Spicy Chicken Burger with Beer Cheese Sauce</a></li>
+            
+            <li><a href= "recipe2"> Pancakes </a></li>
+        </ol>
+        
+        <h2 id="recipe1">Recipe #1</h2>
+        
+        <ul>
+            <li>Time: _</li>
+            <li>Serves: _</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+           
+            <td class= "ingredients"> light beer </td>
+            <td> 1/2 cup</td> 
+                
+            </tr>
+            <tr>
+            
+            <td> smoked paprika </td>
+            <td> 1 tablespoons  </td> 
+                
+            </tr>
+             <tr>
+           
+            <td>  chili powder </td>
+            <td> 1 tablespoon  </td> 
+                
+            </tr>
+             <tr>
+           
+            <td> red pepper flakes </td>
+            <td> 2 teaspoons   </td> 
+                
+            </tr>
+             <tr>
+           
+            <td> garlic cloves, minced </td>
+            <td> 2 </td> 
+                
+            </tr>
+             <tr>
+           
+            <td> boneless skinless chicken breast halves </td>
+            <td> 2 pounds </td> 
+                
+            </tr>
+              <tr>
+           
+            <td> hamburger buns </td>
+            <td> 4  </td> 
+                
+            </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Do something.
+</p>
+        
+    <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+    
+    </body>
+</html>
